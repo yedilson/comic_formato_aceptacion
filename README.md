@@ -1,0 +1,1 @@
+# comic_formato_aceptacion

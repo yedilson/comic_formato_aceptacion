@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- en este archivo se encuentra el codigo que se ejecuta en la funcion  "cargararchivo(archivo, 
+
+etiqueta, locacion)"  
+
+el archiv se estructura asi
+comic
+	titulo(titulo principal)
+	fuente(fuente del titulo)
+	escena
+		atributos del fondo
+
+		atributos de la cerca(imagen que se muestra de bajo; oculta los pies)
+
+		atributos div comentarios
+		 atributos comentario1
+		 atributos comentario2
+
+		atributos imagen1
+		atributos imagen2
+
+los atributos se encuentran nombrados intuitivamente (alto, largo..)
+Desarollada por Oscar Bocanegra-Yedison Quevedo Asesorados por el instructor Camilo figueroa Adsi-2015 CDATTG-->
+<comic>
+	<titulo>Formato de Aceptación-Lo importánte!</titulo>
+	<fuentet> bold 300% cursive</fuentet>
+
+	<!-- Escena uno -->
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>45%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>55%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>200px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>25px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>3px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>Hola compañero como ha estado</comentario1>
+
+		<largocomentario2>200px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>25px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>3px</paddingcomentario2>
+		<floatcomentario2>right</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>Bien que milagro volverlo a ver</comentario2>
+
+		<img1>imagenes/oscar1.png</img1>
+		<altoimg1>90%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>left</floatimg1>
+
+		<img2>imagenes/yedilson1.png</img2>
+		<altoimg2>90%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>right</floatimg2>
+	</escena>
+
+	<!-- Escena dos -->
+
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>45%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>55%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>200px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>25px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>3px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>Que bueno que lo encuentro, imagínese que me salió un trabajito</comentario1>
+
+		<largocomentario2>200px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>25px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>3px</paddingcomentario2>
+		<floatcomentario2>right</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>Si, huyy que bien</comentario2>
+
+		<img1>imagenes/oscar2.png</img1>
+		<altoimg1>90%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>none</floatimg1>
+
+		<img2>imagenes/yedilson2.png</img2>
+		<altoimg2>90%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>none</floatimg2>
+	</escena>
+
+
+	<!-- Escena tres -->
+
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>45%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>55%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>400px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>25px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>10px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>Pero tengo un problemita, me pidieron que redactara una carta de aceptación y no tengo ni idea.
+					 He estado buscando formatos estándar pero no lo consigo y no sé qué hacer
+		</comentario1>
+
+		<largocomentario2>200px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>25px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>6px</paddingcomentario2>
+		<floatcomentario2>right</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>Haaa pero si es muy fácil. Le voy a explicar:</comentario2>
+
+		<img1>imagenes/oscar3.png</img1>
+		<altoimg1>80%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>none</floatimg1>
+
+		<img2>imagenes/yedilson3.png</img2>
+		<altoimg2>80%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>right</floatimg2>
+	</escena>
+
+	<!-- Escena cuatro -->
+
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>40%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>65%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>200px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(57 ,0 ,24, .0)</colorfondocomentario1>
+		<borderadiocomentario1>5px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>10px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1> </comentario1>
+
+		<largocomentario2>400px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>25px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>6px</paddingcomentario2>
+		<floatcomentario2>right</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>Una carta de aceptación, como su nombre lo dice, es una carta 			donde le indican los términos o
+					requerimientos solicitados por el empleador o empresa, en este caso usted va aceptar la propuesta
+					ofertada, enviando una carta donde certifique que usted cumple con los requisitos y acepta dichos
+					términos. </comentario2>
+
+		<img1>imagenes/oscar4.png</img1>
+		<altoimg1>80%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>left</floatimg1>
+
+		<img2>imagenes/yedilson4.png</img2>
+		<altoimg2>80%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>none</floatimg2>
+	</escena>
+
+	<!-- Escena cinco -->
+
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>33%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>70%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>200px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>5px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>10px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>Humm! y como se cuáles son los requisitos que tengo que aceptar.</comentario1>
+
+		<largocomentario2>400px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>8px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>6px</paddingcomentario2>
+		<floatcomentario2>right</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>Pues esos requisitos los encuentra en la invitación de prestación de servicios allí esta plasmados;
+					como la experiencia, titulo, cargo que realizara , el termino y valor del contrato, además le adjuntan una
+					lista con los documentos que tiene que presentar para poder ser contratado.
+		</comentario2>
+	
+		<img1>imagenes/oscar5.png</img1>
+		<altoimg1>80%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>none</floatimg1>
+
+		<img2>imagenes/yedilson5.png</img2>
+		<altoimg2>80%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>none</floatimg2>
+	</escena>
+
+	<!-- Escena seis -->
+
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>45%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>55%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>200px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>5px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>10px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>Y existe un formato para hacer esta carta.</comentario1>
+
+		<largocomentario2>350px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>8px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>6px</paddingcomentario2>
+		<floatcomentario2>none</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>No cada contratista lo hace a su manera, se hace como una carta formal en donde usted acepta los
+					requerimientos que solicita la empresa.
+		</comentario2>
+	
+		<img1>imagenes/oscar9.png</img1>
+		<altoimg1>80%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>left</floatimg1>
+
+		<img2>imagenes/yedilson9.png</img2>
+		<altoimg2>80%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>none</floatimg2>
+	</escena>
+
+	<!-- Escena siete -->
+
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>45%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>55%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>200px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>5px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>10px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>Ha entonces voy a hacerla y lo llevo la otra semana.</comentario1>
+
+		<largocomentario2>400px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>8px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>6px</paddingcomentario2>
+		<floatcomentario2>right</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>No, ojo en la invitación de prestación de servicios pactan un fecha de entrega de la carta de
+					aceptación. No vaya a ser que se quede sin el trabajito, y recuerde llevar una copia para que le entreguen el recibido.  
+		</comentario2>
+	
+		<img1>imagenes/oscar5.png</img1>
+		<altoimg1>80%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>none</floatimg1>
+
+		<img2>imagenes/yedilson2.png</img2>
+		<altoimg2>80%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>none</floatimg2>
+	</escena>
+
+	<!-- Escena ocho -->
+
+	<escena>
+		<fuentea>80% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>45%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>55%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>200px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>5px</borderadiocomentario1>
+		<displaycomentario1>inline-block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>10px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>A entonces me voy ya a hacerla!.</comentario1>
+
+		<largocomentario2>200px</largocomentario2>
+		<alturacomentario2>auto</alturacomentario2>
+		<colorfondocomentario2>rgba(255, 255 ,255, .8)</colorfondocomentario2>
+		<borderadiocomentario2>8px</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>6px</paddingcomentario2>
+		<floatcomentario2>right</floatcomentario2>
+		<alineacioncomentario2>center</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>Bueno, hasta pronto.
+		</comentario2>
+	
+		<img1>imagenes/oscar8.png</img1>
+		<altoimg1>85%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>left</floatimg1>
+
+		<img2>imagenes/yedilson8.png</img2>
+		<altoimg2>85%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>right</floatimg2>
+	</escena>
+
+	<!-- escena nueve -->
+
+
+	<escena>
+		<fuentea>300% cursive</fuentea>
+		<largo>700px</largo>
+		<altura>300px</altura>
+		<colorfondo>imagenes/fondo1.png</colorfondo>
+		<tamanofondo>cover</tamanofondo>
+		<borderadio>1%</borderadio>
+		<display>block</display>
+		<posicion>relative</posicion>
+		<padding> 20px</padding>
+		<margen>20px</margen>
+
+		<altocerca>45%</altocerca>
+		<largocerca>100%</largocerca>
+		<displaycerca>block</displaycerca>
+		<posicioncerca>absolute</posicioncerca>
+		<bajandocerca>55%</bajandocerca>
+		<movercerca>0</movercerca>
+		<fondocerca>imagenes/cerca1.png</fondocerca>
+		<tamanocerca>cover</tamanocerca>
+
+		<largocomentarios>100%</largocomentarios>
+		<displaycomentarios>inline-block</displaycomentarios>
+
+		<largocomentario1>500px</largocomentario1>
+		<alturacomentario1>auto</alturacomentario1>
+		<colorfondocomentario1>rgba(255, 255 ,255, .8)</colorfondocomentario1>
+		<borderadiocomentario1>50%</borderadiocomentario1>
+		<displaycomentario1>block</displaycomentario1>
+		<posicioncomentario1>relative</posicioncomentario1>
+		<paddingcomentario1>10px</paddingcomentario1>
+		<floatcomentario1>left</floatcomentario1>
+		<alineacioncomentario1>center</alineacioncomentario1>
+		<!-- comentario uno -->
+		<comentario1>continuara...</comentario1>
+
+		<largocomentario2>100%</largocomentario2>
+		<alturacomentario2>200px</alturacomentario2>
+		<colorfondocomentario2>rgba(255 ,255, 255, .3)</colorfondocomentario2>
+		<borderadiocomentario2>50%</borderadiocomentario2>
+		<displaycomentario2>inline-block</displaycomentario2>
+		<posicioncomentario2>relative</posicioncomentario2>
+		<paddingcomentario2>6px</paddingcomentario2>
+		<floatcomentario2>none</floatcomentario2>
+		<alineacioncomentario2>none</alineacioncomentario2>
+		<!-- comentario dos-->
+		<comentario2>Realizado por: Oscar Bocanegra - Yedilson Quevedo</comentario2>
+	
+		<img1>imagenes/oscar.png</img1>
+		<altoimg1>10%</altoimg1>
+		<displayimg1>inline-block</displayimg1>
+		<posicionimg1>relative</posicionimg1>
+		<floatimg1>left</floatimg1>
+
+		<img2>imagenes/yedilson.png</img2>
+		<altoimg2>10%</altoimg2>
+		<displayimg2>inline-block</displayimg2>
+		<posicionimg2>relative</posicionimg2>	
+		<floatimg2>right</floatimg2>
+	</escena>
+	
+</comic>
